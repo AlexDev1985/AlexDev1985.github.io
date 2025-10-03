@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة المواد الدراسية</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Arabic text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Applying Cairo font to the body */
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <h1 class="text-3xl font-bold text-center text-gray-900">بوابتي الدراسية</h1>
+            <p class="text-center text-gray-600 mt-1">مكان واحد للوصول إلى جميع موادك الدراسية</p>
+        </div>
+    </header>
+
+    <!-- Main Content: Course Cards -->
+    <main class="container mx-auto px-6 py-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Course Card 1: Feasibility Studies -->
+            <div
+                class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
+                <div class="p-6">
+                    <div class="flex items-center space-x-4 space-x-reverse">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <!-- Icon for analysis/studies -->
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-900">دراسات الجدوى</h2>
+                            <p class="text-sm text-gray-500">د. سعيد عبد العزيز</p>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-gray-600">
+                        الدخول إلى المحاضرات والملخصات والمواد التعليمية الخاصة بالمادة.
+                    </p>
+                </div>
+                <a href="#"
+                    class="block bg-blue-500 hover:bg-blue-600 text-white font-bold text-center py-3 transition-colors duration-300">
+                    الدخول للمادة
+                </a>
+            </div>
+
+            <!-- Course Card 2: Accounting in Financial Institutions -->
+            <div
+                class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
+                <div class="p-6">
+                    <div class="flex items-center space-x-4 space-x-reverse">
+                        <div class="bg-green-100 p-3 rounded-full">
+                            <!-- Icon for finance/accounting -->
+                            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-900">المحاسبة في المؤسسات المالية</h2>
+                            <p class="text-sm text-gray-500">د. سعد بيومي</p>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-gray-600">
+                        الدخول إلى المحاضرات والملخصات والمواد التعليمية الخاصة بالمادة.
+                    </p>
+                </div>
+                <a href="#"
+                    class="block bg-green-500 hover:bg-green-600 text-white font-bold text-center py-3 transition-colors duration-300">
+                    الدخول للمادة
+                </a>
+            </div>
+
+            <!-- You can add more course cards here by copying the structure above -->
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-10">
+        <div class="container mx-auto px-6 py-4">
+            <p class="text-center text-gray-500 text-sm">
+                &copy; 2025 | تم التصميم لمساعدتك في رحلتك التعليمية.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
